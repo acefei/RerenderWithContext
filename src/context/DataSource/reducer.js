@@ -6,7 +6,7 @@ const setStateHelper = (prevState, nextState) => {
     : nextState;
 };
 
-const initState = [];
+const initState = 0;
 
 const actions = {
   SET_DATA_SOURCE: "SDS"
